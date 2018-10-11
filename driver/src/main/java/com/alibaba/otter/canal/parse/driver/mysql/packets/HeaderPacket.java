@@ -31,6 +31,7 @@ public class HeaderPacket implements IPacket {
 
     /**
      * little-endian byte order
+     * 小段表示法 - 高位存放在右边
      */
     public byte[] toBytes() {
         byte[] data = new byte[4];
